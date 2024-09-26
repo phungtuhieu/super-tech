@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const config = {
-  baseURL: import.meta.env.VITE_REACT_APP_BASE_URL
+  baseURL: import.meta.env.VITE_BASE_URL_API
 }
 
 const AxiosClient = axios.create(config);
